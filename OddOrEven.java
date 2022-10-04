@@ -1,0 +1,36 @@
+package LabBooks;
+
+import java.util.Scanner;
+
+public class OddOrEven {
+public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the number to check:");
+	int num=sc.nextInt();
+	if(num%2==0) {
+		System.out.println("The given number is even number");
+	}
+	else {
+		System.out.println("The given number is odd number");
+	}
+	
+}
+}
+/*import java.util.Scanner;
+class OddOrEven
+{
+ public static void main(String args[])
+ {
+ int num;
+ System.out.println("Enter an Integer number:");
+ //The input provided by user is stored in num
+ Scanner input = new Scanner(System.in);
+ num = input.nextInt();
+ /* If number is divisible by 2 then it's an even number
+ * else odd number*/
+//if ( num % 2 == 0 )
+// System.out.println("Entered number is even");
+ //else
+ //System.out.println("Entered number is odd");
+// }
+//}
